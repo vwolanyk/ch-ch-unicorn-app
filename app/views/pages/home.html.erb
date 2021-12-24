@@ -1,8 +1,16 @@
-<div style="text-align: center">
-<h2>2022 Grows Bowl<h2>
-  <h4>presents</h4>
+<% content_for :content do %>
+    <div class="jumbotron text-center">
+      <h2>2022 Grows Bowl</h2>
+        <h1>UNICORN GAMES</h1>
 
-  <h1>UNICORN GAMES</h1>
+    </div>
+    <div class="container">
+      <%= image_tag("uniboss.jpg", class: "w-100", alt: "UniBoss") %>
 
-  <%= image_tag "uniboss.jpg", style: "margin: auto; width: 65%"%>
+      <h1 class="font-monospace mt-4" style="color: cyan"> Steph <span style="color: red; text-align: center"> VS </span> Dan</h1>
+
   </div>
+
+  <div class="container" style="margin-top: 2em, text-align: center">
+    </div>
+<%end%>
